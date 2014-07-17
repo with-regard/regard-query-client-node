@@ -5,15 +5,18 @@ Node module for accessing Regard query engine
 
 ## Environment variables
 
-`QUERY_USERNAME`
-`QUERY_PASSWORD`
+```
+QUERY_USERNAME
+QUERY_PASSWORD
+```
 
 ## API
 
 The query client requires an organization and product.
 
 ```js
-var QueryClient = new QueryClient(organization, product);
+var QueryClient = require('regard-query-client-node');
+var client = new QueryClient(organization, product);
 ```
 
 All of the following methods return promises.

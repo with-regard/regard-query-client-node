@@ -1,0 +1,20 @@
+{
+  "name": "regard-query-client-node",
+  "version": "0.0.1",
+  "description": "Node module for accessing Regard query engine",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/with-regard/regard-query-client-node.git"
+  },
+  "author": "",
+  "license": "Apache v2",
+  "bugs": {
+    "url": "https://github.com/with-regard/regard-query-client-node/issues"
+  },
+  "homepage": "https://github.com/with-regard/regard-query-client-node",
+  "dependencies": {
+    "promise": "~5.0.0",
+    "request": "~2.37.0"
+  }
+}
